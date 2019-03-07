@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-SU71WZ.desktop
+x-scheme-handler/https=userapp-Firefox-SU71WZ.desktop
+x-scheme-handler/ftp=userapp-Firefox-SU71WZ.desktop
+x-scheme-handler/chrome=userapp-Firefox-SU71WZ.desktop
+text/html=userapp-Firefox-SU71WZ.desktop
+application/x-extension-htm=userapp-Firefox-SU71WZ.desktop
+application/x-extension-html=userapp-Firefox-SU71WZ.desktop
+application/x-extension-shtml=userapp-Firefox-SU71WZ.desktop
+application/xhtml+xml=userapp-Firefox-SU71WZ.desktop
+application/x-extension-xhtml=userapp-Firefox-SU71WZ.desktop
+application/x-extension-xht=userapp-Firefox-SU71WZ.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-SU71WZ.desktop;
+x-scheme-handler/https=userapp-Firefox-SU71WZ.desktop;
+x-scheme-handler/ftp=userapp-Firefox-SU71WZ.desktop;
+x-scheme-handler/chrome=userapp-Firefox-SU71WZ.desktop;
+text/html=userapp-Firefox-SU71WZ.desktop;
+application/x-extension-htm=userapp-Firefox-SU71WZ.desktop;
+application/x-extension-html=userapp-Firefox-SU71WZ.desktop;
+application/x-extension-shtml=userapp-Firefox-SU71WZ.desktop;
+application/xhtml+xml=userapp-Firefox-SU71WZ.desktop;
+application/x-extension-xhtml=userapp-Firefox-SU71WZ.desktop;
+application/x-extension-xht=userapp-Firefox-SU71WZ.desktop;

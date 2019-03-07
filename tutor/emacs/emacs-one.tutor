@@ -1,0 +1,102 @@
+// This is a new file called emacs.tutor
+//
+// C-x C-f : Opens the file, asks for the file name. If it cannot find the file, creates a new file.
+// C-x C-s : Saves the file without a prompt.
+// C-x s   : Saves all files with a prompt.
+// C-s C-w : Saves the file with a different name. Asks you for the name.
+//
+// Everytime you saves a file, Emacs creates another file with the name "filename~".
+// This tilde(~) file is the previous version of the file. It will be in the same dir.
+// Also, Emacs auto-saves everything you type to a file with the name "#filename#".
+// If you quit Emacs without saving, you can see this auto-save file.
+//
+// C-c C-x : Quits Eamacs.
+//
+// M-x recover-file : Recovers the aoutosaved file.
+//
+// Copy/Cut/Paste Commands:
+// ------------------------
+// C-k     : Kills/deletes the whole line, puts it into the clipboard.
+// C-y     : Pastes whatever is in the clipboard at the cursor.
+//           Subsequent C-y's will keep on pasting.
+// C-space : Starts marking/highligting a region.
+// M-w     : Copies this region into the clipboard.
+// C-w     : Cuts this region into the clipboard (deletes the region and copies it ti clipboard)
+// C-g     : Always quits your command.
+//
+// Cursor commands:
+// ----------------
+// C-a     : Beginning of the line.
+// C-e     : End of the line.
+// M->     : End of the buffer.
+// M-<     : Beginning of the buffer.
+//
+// C-/     : Undo.
+// C-g C-/ : Redo.
+//
+// Buffer Managemetn Commands:
+// ---------------------------
+// C-x b   : Switches buffers, asks you which buffer to switch.
+// C-x C-b : Switches buffers, but shows you the list of buffers in a new window.
+//
+// C-x o   : Goes to other window.
+// C-x 0   : Closes the current window.
+// C-x 1   : Will leave only the current window.
+// C-x 2   : Will make a horizontal split.
+// C-x 3   : Will make a vertical split.
+//
+// Search Commands:
+// ----------------
+// C-s     : Searches forward as you type. Beware \n is not a new line, it's C-j
+//           When you are within a search, C-s will find next occurance.
+//           You can always hit C-g to quit the search and return where you were.
+//
+// M-C-s   : Searches regexp
+//
+// M-%     : Searches and replaces.
+//
+// M-s o   : Searches and shows all the occurances in an *Occure* buffer. You can click on
+//           the lines to jump to those lines.
+// M-x grep: Greps a pattern in the files you specify and shows the results in a *Grep*
+//           buffer. It is similar to "occur" as you can click/enter on the lines to go
+//           to that file.
+// M-x rgrep: Will recursively grep in a directory (all the files and subdirectories)
+//
+// Commands:
+// ---------
+// Emacs understands elisp. It is a dialect of lisp.
+// M-x command-name : Will execute the command.
+// M-x pwd : Prints current directory.
+// M-x indent-region : Indents the region.
+// 
+// Hit M-x and type anything and hit TAB to auto-complete the commands (or see the
+// available commands.)
+//
+// M-: Goes to the evaluation buffer where you can evaluate a lisp statement.
+// For example, "setq" sets a variable to a value.
+//
+// C-h v : Check the value of the variable.
+//
+// C-x C-e : Evaluates (i.e. runs) a lisp statement at the cursor
+// (setq my_var '124)
+// (setq your_var '123)
+// my_var
+// your_var
+//
+// ~/.emacs file and Packages
+// --------------------------
+// Emacs is a very versatile, you can programm it, and add new anbilities. Let's say that we
+// develope a new language that Emacs does not know about. All we have to do is to write
+// a "package" so that Emacs can color-code it for example. Or event write a package for
+// Emacs to auto-complete keywords in this langage. This makes Emacs a platform for editing
+// many different things.
+//
+// ~/.emacs file (A file called ".emacs" under your home directory) holds all the elisp
+// statements that is run whem you start your Emacs.
+// ~/.emacs.d directory (A directory called ".emacs.d" under your home directory) holds
+// all the packages (files of lisp commands/statements) for Emacs.
+//
+// You load a package by referring it in a "require" statement.
+// (require 'auto-complete) (auto-complete-mode)
+whi
+//

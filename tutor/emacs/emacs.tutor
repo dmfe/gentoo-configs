@@ -1,0 +1,6 @@
+// This is a new file called emacs.tutor
+//
+// C-x C-f : Opens the file, asks for the file name. If it cannot find the file, creates a new file
+// C-x C-s : Saves the file without a prompt
+// C-x s   : Saves all files with a prompt
+// C-s C
